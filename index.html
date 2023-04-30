@@ -7,62 +7,19 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="./assets/fonts/font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="./assets/css/button.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
     <div id="toast">
-        <!-- Success -->
-        <div class="toast toast--success">
-            <div class="toast__icon">
-                <i class="fa fa-check-circle" aria-hidden="true"></i>
-            </div>
-            <div class="toast__body">
-                <h3 class="toast__title">success</h3>
-                <p class="toast__msg">Your request has been accepted</p>
-            </div>
-            <div class="toast__close">
-                <i class="fa fa-times" aria-hidden="true"></i>
-            </div>
-        </div>
-        <!-- Info -->
-        <div class="toast toast--info">
-            <div class="toast__icon">
-                <i class="fa fa-check-circle" aria-hidden="true"></i>
-            </div>
-            <div class="toast__body">
-                <h3 class="toast__title">info</h3>
-                <p class="toast__msg">Your request has been accepted</p>
-            </div>
-            <div class="toast__close">
-                <i class="fa fa-times" aria-hidden="true"></i>
-            </div>
-        </div>
-        <!-- Warning -->
-        <div class="toast toast--warning">
-            <div class="toast__icon">
-                <i class="fa fa-check-circle" aria-hidden="true"></i>
-            </div>
-            <div class="toast__body">
-                <h3 class="toast__title">Warning</h3>
-                <p class="toast__msg">Your request has been accepted</p>
-            </div>
-            <div class="toast__close">
-                <i class="fa fa-times" aria-hidden="true"></i>
-            </div>
-        </div>
-        <!-- Error -->
-        <div class="toast toast--error">
-            <div class="toast__icon">
-                <i class="fa fa-check-circle" aria-hidden="true"></i>
-            </div>
-            <div class="toast__body">
-                <h3 class="toast__title">error</h3>
-                <p class="toast__msg">Your request has been accepted</p>
-            </div>
-            <div class="toast__close">
-                <i class="fa fa-times" aria-hidden="true"></i>
-            </div>
-        </div>
+        
     </div>
+
+    <div>
+        <div onclick="showSuccessToast()" class="btn btn--success">SHOW SUCCESS TOAST</div>
+        <div onclick="showErrorToast()" class="btn btn--danger">SHOW DANGER TOAST</div>
+    </div>
+
+    <script type="text/javascript" src="./assets/js/main.js"></script>
 </body>
 </html>
