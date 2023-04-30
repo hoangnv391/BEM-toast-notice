@@ -27,7 +27,7 @@ body > div {
     box-shadow: 0 5px 8px rgba(0, 0, 0, 0.08);
     min-width: 400px;
     max-width: 450px;
-    animation: slideInLeft ease .3s, fadeOut linear 1s 3s forwards;
+    transition: all linear .3s;
 }
 
 @keyframes slideInLeft {
